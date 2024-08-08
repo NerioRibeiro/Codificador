@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="criptografar.js" defer></script>
+    <script src="descriptocrafar.js"></script>
+    <script src="copiar.js"></script>
+    <title>Codificador</title>
+  </head>
+
+  <body>
+    <header class="imagem_icone_a">
+      <img
+        src="imagens/icone__a.png"
+        alt="Letra a. Logo do projeto"
+        srcset=""
+      />
+    </header>
+
+    <main class="conteudo_principal">
+      <section
+        class="conteudo_principal_digite_texto_letras_minusculas_ate_botoes"
+      >
+        <textarea
+          id="id_digite_seu_texto"
+          name="digite seu texto"
+          class="classe_digite_seu_texto"
+          type="text"
+          placeholder="Digite seu texto"
+          autofocus
+        ></textarea>
+
+        <section
+          class="conteudo_principal_digite_texto_letras_minusculas_botoes"
+        >
+          <section class="p_imagem">
+            <img
+              src="imagens/icone_da_observacao_letras_grandes_e_mausculas.png"
+              alt="icone de observação"
+            />
+
+            <p class="p_Apenas_letras_minusculas">
+              Apenas letras minúsculas e sem acento.
+            </p>
+          </section>
+
+          <section class="conteudo_principal_digite_texto_letras_botoes">
+            <button
+              class="criptografar"
+              id="id_butao_conteudo_principal_digite_texto_letras_botoes"
+              type="submit"
+              onclick="crip()"
+            >
+              Criptografar
+            </button>
+
+            <button class="descriptografar" type="submit" onclick="descrip()">
+              Descriptografar
+            </button>
+          </section>
+        </section>
+      </section>
+
+      <section
+        class="conteudo_principal_tela_decodificadora"
+        id="id_conteudo_principal_tela_decodificadora"
+      >
+        <section
+          class="conteudo_principal_tela_dois_paragrafos_decodificadora"
+          id="id_conteudo_principal_tela_dois_paragrafos_decodificadora"
+        >
+          <img
+            class="garota_de_joelho"
+            id="imagem__da__garota_de_joelho"
+            src="imagens/imagem__da__garota_de_joelho.png"
+            alt="imagem da tela do codificador. Garota de joelho"
+          />
+          <p
+            class="conteudo_principal_tela_decodificadora_p_nenhuma_mensagem"
+            id="id_conteudo_principal_tela_decodificadora_p_nenhuma_mensagem"
+          >
+            Nenhuma mensagem encontrada
+          </p>
+
+          <p
+            class="conteudo_principal_tela_decodificadora_p_digite_um_texto"
+            id="id_conteudo_principal_tela_decodificadora_p_digite_um_texto"
+          >
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </section>
+        <button onclick="c()" type="submit" class="butao" id="id_butao_copiar">
+          Copiar texto
+        </button>
+      </section>
+    </main>
+
+    <footer class="rodape">Desenvolvido por Nério Ribeiro</footer>
+  </body>
+</html>

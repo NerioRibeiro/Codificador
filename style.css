@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --premeira-cor: #f0f3f6;
+}
+
+body {
+  background-color: var(--premeira-cor);
+}
+
+.imagem_icone_a {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.conteudo_principal {
+  display: flex;
+  justify-content: space-between;
+  gap: 15rem;
+  margin-left: 200px;
+  height: 35rem;
+}
+
+.conteudo_principal_digite_texto_letras_minusculas_ate_botoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.classe_digite_seu_texto {
+  background-color: var(--premeira-cor);
+  width: 680px;
+  height: 48px;
+  border: var(--premeira-cor);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  color: #0a3871;
+  padding-left: 5px;
+  padding-top: 5px;
+  word-wrap: break-word;
+}
+
+.conteudo_principal_digite_texto_letras_minusculas_botoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.p_imagem {
+  display: flex;
+}
+
+#imagem__da__garota_de_joelho {
+  width: 200px;
+  margin-right: 13%;
+  margin-top: -4pc;
+}
+
+#id_conteudo_principal_tela_decodificadora_p_nenhuma_mensagem {
+  margin-top: -40px;
+  padding-right: 70px;
+}
+
+#id_conteudo_principal_tela_decodificadora_p_digite_um_texto {
+  margin-top: -100px;
+  padding-right: 40px;
+}
+
+#id_butao_copiar {
+  margin-top: -50px;
+  width: 200px;
+  height: 80px;
+  padding-right: 50px;
+}
+
+.conteudo_principal_tela_decodificadora {
+  width: 400px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 20px;
+  text-align: center;
+  align-content: center;
+  margin-right: 3%;
+  word-break: break-word; /* Para suportar navegadores antigos */
+  overflow-wrap: break-word; /* Novo padrão */
+  white-space: pre-wrap; /* Mantém as quebras de linha */
+  height: auto;
+  overflow: auto; /* Adiciona barra de rolagem se o conteúdo ultrapassar a altura */
+}
+
+.conteudo_principal_tela_decodificadora_p_nenhuma_mensagem {
+  font-size: 20px;
+  font-family: sans-serif, bold;
+  font-weight: 600;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 32px;
+  color: #343a40;
+  margin-bottom: -50px;
+}
+
+.conteudo_principal_tela_decodificadora_p_digite_um_texto {
+  font-size: 13px;
+  font-family: "Lucida Sans Regular", sans-serif;
+  font-weight: 400;
+  padding: 0% 8% 0% 8%;
+  margin-top: 16px;
+  color: #495057;
+}
+
+.conteudo_principal_digite_texto_letras_botoes {
+  width: 680px;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.p_Apenas_letras_minusculas {
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 8px;
+  color: #495057;
+}
+
+.criptografar,
+.descriptografar {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.criptografar {
+  background-color: #0a3871;
+  color: #f0f3f6;
+  border: #0a3871;
+}
+
+.descriptografar {
+  background-color: #d8dfe8;
+  color: 0A3871;
+  border: #0a3871;
+}
+
+.butao {
+  background-color: #d8dfe8;
+  border-radius: 5px;
+  width: 130px;
+  padding: 5px;
+  margin-top: 16px;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.rodape {
+  background-color: #a3c9c7;
+  text-align: center;
+  align-content: center;
+  height: 50px;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+  width: auto;
+}
