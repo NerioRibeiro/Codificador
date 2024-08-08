@@ -1,4 +1,4 @@
-Projeto Codificador
+<h1>Projeto Codificador</h1>
 Este projeto é um codificador simples de texto, permitindo que os usuários digitem, visualizem e copiem textos com facilidade. O objetivo é fornecer uma interface intuitiva para manipulação de texto, incluindo recursos para remover acentos, transformar letras em minúsculas e quebrar linhas corretamente.
 
 Funcionalidades
